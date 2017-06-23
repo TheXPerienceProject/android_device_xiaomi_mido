@@ -567,6 +567,8 @@ service qcom-post-boot /vendor/bin/init.qcom.post_boot.sh
 
 on property:sys.boot_completed=1
     start qcom-post-boot
+    # Enable ZRAM on boot_complete
+    swapon_all fstab.qcom
 
 service qvop-daemon /vendor/bin/qvop-daemon
     class late_start
