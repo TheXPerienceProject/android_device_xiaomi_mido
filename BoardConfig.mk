@@ -122,9 +122,8 @@ BOARD_USES_QCNE := true
 # Cpusets
 ENABLE_CPUSETS := true
 
-# Enable HW based full disk encryption
-TARGET_HW_DISK_ENCRYPTION := false
-TARGET_CRYPTFS_HW_PATH := $(DEVICE_PATH)/cryptfs_hw
+# Crypto
+TARGET_HW_DISK_ENCRYPTION := true
 
 # Dexpreopt
 ifeq ($(HOST_OS),linux)
