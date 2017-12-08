@@ -34,11 +34,11 @@
 
 // System dependencies
 #include <fcntl.h>
-#include <sys/stat.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include "hardware/gralloc.h"
 #include <utils/Timers.h>
+#include <sys/stat.h>
 
 // Camera dependencies
 #include "QCamera3Channel.h"
