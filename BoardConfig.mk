@@ -180,6 +180,9 @@ TARGET_PROVIDES_KEYMASTER := true
 BOARD_HARDWARE_CLASS += \
     $(DEVICE_PATH)/lineagehw
 
+# Lights
+TARGET_PROVIDES_LIBLIGHT := true
+
 # Media
 TARGET_USES_MEDIA_EXTENSIONS := true
 
@@ -216,6 +219,9 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/recovery/fstab.qcom
 # SELinux
 #include device/qcom/sepolicy/sepolicy.mk
 #BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+
+#Telephony
+TARGET_PROVIDE_TELEPHONY_EXT := true
 
 # Wi-Fi
 BOARD_HAS_QCOM_WLAN := true
