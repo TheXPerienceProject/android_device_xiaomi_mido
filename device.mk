@@ -272,10 +272,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    power.msm8953
-
-PRODUCT_PACKAGES += \
-    android.hardware.power@1.0-impl
+    android.hardware.power@1.1-service-qti
 
 # QMI
 PRODUCT_PACKAGES += \
@@ -359,4 +356,3 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
-gi
