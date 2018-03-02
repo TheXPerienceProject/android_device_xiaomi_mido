@@ -135,7 +135,8 @@ PRODUCT_PACKAGES += \
     consumerir.msm8953
 
 PRODUCT_PACKAGES += \
-    android.hardware.ir@1.0-impl
+    android.hardware.ir@1.0-impl \
+	android.hardware.ir@1.0-service
 
 # Display
 PRODUCT_PACKAGES += \
@@ -215,7 +216,9 @@ PRODUCT_COPY_FILES += \
 
 # HIDL
 PRODUCT_PACKAGES += \
-    android.hidl.manager@1.0-java
+    android.hidl.manager@1.0 \
+    android.hidl.manager@1.0-java \
+	android.hidl.base@1.0
 
 # IPA Manager
 PRODUCT_PACKAGES += \
@@ -313,7 +316,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/sensor_def_qcomdev.conf:system/vendor/etc/sensors/sensor_def_qcomdev.conf
 
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@1.0-impl
+    android.hardware.sensors@1.0-impl \
+	android.hardware.sensors@1.0-service
 
 # USB HAL
 PRODUCT_PACKAGES += \
