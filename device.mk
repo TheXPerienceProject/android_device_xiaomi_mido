@@ -38,7 +38,8 @@ PRODUCT_PACKAGES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    init.mido.rc
+    init.mido.rc \
+    init.goodix.sh
 
 # Sensors
 PRODUCT_COPY_FILES += \
