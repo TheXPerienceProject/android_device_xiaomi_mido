@@ -150,6 +150,10 @@ PRODUCT_PACKAGES += \
     libjni_livedisplay \
     libtinyxml
 
+#Xiaomi DOZE
+PRODUCT_PACKAGES += \
+    XiaomiDoze
+
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
     android.hardware.graphics.allocator@2.0-service \
