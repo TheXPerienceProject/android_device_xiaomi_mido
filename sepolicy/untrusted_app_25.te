@@ -16,3 +16,5 @@ allow untrusted_app_25 sysfs:file { getattr open read };
 allow untrusted_app_25 tombstone_data_file:dir getattr;
 allow untrusted_app_25 unlabeled:dir getattr;
 allow untrusted_app_25 vndservice_contexts_file:file getattr;
+allow untrusted_app_25 proc_stat:file { getattr open read };
+allow untrusted_app_25 qemu_hw_mainkeys_prop:file { getattr open };
