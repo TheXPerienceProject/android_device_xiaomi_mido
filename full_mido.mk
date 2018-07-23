@@ -26,5 +26,5 @@ TARGET_VENDOR := Xiaomi
 PRODUCT_DEVICE := mido
 PRODUCT_NAME := full_mido
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi Note 4
+PRODUCT_MODEL := Redmi Note 4x
 PRODUCT_MANUFACTURER := Xiaomi
