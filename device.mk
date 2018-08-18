@@ -29,7 +29,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_mtp.xml
 
 # Fingerprint
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.0-service.xiaomi_mido
 
 # Consumerir
